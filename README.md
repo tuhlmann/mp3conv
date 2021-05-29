@@ -71,6 +71,14 @@ It's just calling a `Promise.all()` on the array of running processes.
 
 Because Javascripts promises don't come with a flag to check if they are finished or not I wrapped them in a `QueryablePromise` class (I found similar code online and modified it a bit for Typescript and to be used for class composition instead of extending Promise itself).
 
+
+
+## Further Information About Generators
+
+- https://medium.com/front-end-weekly/modern-javascript-and-asynchronous-programming-generators-yield-vs-async-await-550275cbe433
+- https://exploringjs.com/es6/ch_generators.html
+- https://thecodebarbarian.com/async-generator-functions-in-javascript.html
+
 # Things to Improve
 
 - make video and audio file extension configurable through command line switches

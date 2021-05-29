@@ -1,0 +1,16 @@
+{
+  "deno.enable": true,
+  "deno.lint": true,
+  "deno.suggest.completeFunctionCalls": true,
+  "eslint.lintTask.enable": false,
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "denoland.vscode-deno",
+  "deno.unstable": true,
+  "files.autoSave": "onFocusChange"
+}
